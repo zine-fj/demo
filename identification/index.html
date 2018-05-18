@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>身份证号的秘密</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		<div class="content">
+			<div class="identification-content">
+				<h2>身份证号码的含义</h2>
+				<span>请输入身份证号：</span>
+				<input type="text" class="identification" id="identification" value="41282619940615084X"/>
+				<button id="reset">重置</button><button id="but">开始查询</button>
+			</div>
+			<div class="result">
+				<div class="result-cl address">
+					<p class="address-left">出生地：</p>
+					<p class="address-right"></p>
+				</div>
+				<div class="result-cl birthday">
+					<p class="birthday-left">生日：</p>
+					<p class="birthday-right"></p>
+				</div>
+				<div class="result-cl sex">
+					<p class="sex-left">性别：</p>
+					<p class="sex-right"></p>
+				</div>
+				<div class="result-cl sequence">
+					<p class="sequence-left">顺序码：</p>
+					<p class="sequence-right"></p>
+				</div>
+				<div class="result-cl verfication">
+					<p class="verfication-left">验证码：</p>
+					<p class="verfication-right"></p>
+				</div>
+			</div>
+			<div class="focus">
+				<p>注：</p>
+				<p>1、暂定中国某个省最多29个市,最多89个县</p> 
+				<p>2、暂定所有顺序码默认从000开始</p> 
+			</div>
+		</div>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
