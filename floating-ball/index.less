@@ -1,0 +1,139 @@
+.ball{
+    width: 100%;
+    height: 100%;
+    padding: 10/22.08rem;
+    position: relative;
+    padding: 10/22.08rem;
+    .ball-relative{
+        z-index: 9999;
+        width: 66/22.08rem;
+        height: 66/22.08rem;
+        position: absolute;
+        left: 20/22.08rem;
+        bottom: 100/22.08rem;
+        .ball-menu{
+            width: 66/22.08rem;
+            height: 66/22.08rem;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .ball-absolute{
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 110/22.08rem;
+            height: 220/22.08rem;
+            border-radius: 6/22.08rem;
+            background: #fff;
+            box-shadow:0/22.08rem 0/22.08rem 8/22.08rem 0/22.08rem rgba(66,143,239,0.3);
+            .triangle-top{
+                .triangle-before{
+                    position: absolute;
+                    right: 44/22.08rem;
+                    top: -6/22.08rem;
+                    border-left: 7/22.08rem solid transparent;
+                    border-right: 7/22.08rem solid transparent;
+                    border-bottom: 7/22.08rem solid rgba(66,143,239,0.1);
+                }
+                .triangle-after{
+                    position: absolute;
+                    right: 44/22.08rem;
+                    top: -5/22.08rem;
+                    border-left: 7/22.08rem solid transparent;
+                    border-right: 7/22.08rem solid transparent;
+                    border-bottom: 7/22.08rem solid #fff;
+                    z-index: 1;
+                }
+            }
+
+            .triangle-bottom{
+                .triangle-before{
+                    position: absolute;
+                    right: 44/22.08rem;
+                    top: 220/22.08rem;
+                    border-left: 7/22.08rem solid transparent;
+                    border-right: 7/22.08rem solid transparent;
+                    border-top: 7/22.08rem solid rgba(66,143,239,0.1);
+                }
+                .triangle-after{
+                    position: absolute;
+                    right: 44/22.08rem;
+                    top: 219/22.08rem;
+                    border-left: 7/22.08rem solid transparent;
+                    border-right: 7/22.08rem solid transparent;
+                    border-top: 7/22.08rem solid #fff;
+                }
+            }
+
+            
+            p{
+                font-size: 0;
+                line-height: 17/22.08rem;
+                display: flex;
+                align-items: center;
+                padding: 15/22.08rem 11/22.08rem 12/22.08rem 13/22.08rem;
+                position: relative;
+                &:after{
+                    position: absolute;
+                    left: 13/22.08rem;
+                    top: 0;
+                    content: "";
+                    width: 86/22.08rem;
+                    height: 1/22.08rem;
+                    background: #F5F5F5;
+                }
+                &:first-child{
+                    &:after{
+                        height: 0;
+                    }
+                }
+                span:first-child{
+                    width: 16/22.08rem;
+                    height: 16/22.08rem;
+                    display: inline-block;
+                    margin-right: 8/22.08rem;
+                }
+                span:last-child{
+                    font-size: 14/22.08rem;
+                    color: #333;
+                }
+            }
+            .ball-click-act{
+                background: #f5f5f5;
+                border-radius: 6/22.08rem 6/22.08rem 0 0;
+            }
+            .ball-menu-1{
+                span:first-child{
+                    background: url('images/ball-menu-1.png') no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+            .ball-menu-2{
+                span:first-child{
+                    background: url('images/ball-menu-2.png') no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+            .ball-menu-3{
+                span:first-child{
+                    background: url('images/ball-menu-3.png') no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+            .ball-menu-4{
+                span:first-child{
+                    background: url('images/ball-menu-4.png') no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+            .ball-menu-5{
+                span:first-child{
+                    background: url('images/ball-menu-5.png') no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+        }
+    }
+}
