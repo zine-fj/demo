@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>移动端悬浮球</title>
+    <link rel="stylesheet" href="index.less">
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 注意：
+    1、所用的css为less;
+    2、这里的 1rem = 22.08px; 
+    3、用时可把 /22.08rem 变为 px;
+    -->
+</head>
+<body>
+    <div class="ball">
+        <div class="ball-fixed">
+            <div class="ball-relative">
+                <img class="ball-menu" src="images/ball-menu.png" alt="">
+                <div class="ball-absolute">
+                    <div class="triangle">
+                        <span class="triangle-before"></span>
+                        <span class="triangle-after"></span>
+                    </div>
+                    <p class="ball-menu-1">
+                        <span></span>
+                        <span>诊所介绍</span>
+                    </p>
+                    <p class="ball-menu-2">
+                        <span></span>
+                        <span>预约挂号</span>
+                    </p>
+                    <p class="ball-menu-3">
+                        <span></span>
+                        <span>问题咨询</span>
+                    </p>
+                    <p class="ball-menu-4">
+                        <span></span>
+                        <span>套餐购买</span>
+                    </p>
+                    <p class="ball-menu-5">
+                        <span></span>
+                        <span>个人中心</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
